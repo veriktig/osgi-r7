@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1517519180561
+Bundle-Copyright: Copyright (c) OSGi Alliance (2000, 2018). All Rights
+  Reserved.
+Bundle-Description: OSGi Annotation Release 7, Annotations for use in 
+ compiling bundles
+Bundle-Developers: osgi; email=info@osgi.org; name="OSGi Alliance"; or
+ ganization="OSGi Alliance"; organizationUrl=https://www.osgi.org/
+Bundle-DocURL: https://www.osgi.org/
+Bundle-License: Apache-2.0; link="http://www.apache.org/licenses/LICEN
+ SE-2.0"; description="Apache License, Version 2.0"
+Bundle-ManifestVersion: 2
+Bundle-Name: org.osgi:osgi.annotation
+Bundle-SCM: url=https://osgi.org/gitweb/build.git, connection=scm:git:
+ https://osgi.org/git/build.git, developerConnection=scm:git:https://o
+ sgi.org/git/build.git, tag=hudson-build.core-1432
+Bundle-SymbolicName: osgi.annotation
+Bundle-Vendor: OSGi Alliance https://www.osgi.org/
+Bundle-Version: 7.0.0.201802012106
+Created-By: 1.8.0_152 (Oracle Corporation)
+Export-Package: org.osgi.annotation.versioning;version="1.1",org.osgi.
+ annotation.bundle;version="1.0"
+Git-Descriptor: hudson-build.core-1432
+Git-SHA: ac877b9fdaa36e26adb939cf9dd425e77243f449
+Provide-Capability: osgi.unresolvable
+Require-Capability: osgi.unresolvable;filter:="(&(must.not.resolve=*)(
+ !(must.not.resolve=*)))",osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=
+ 1.7))"
+Tool: Bnd-3.5.0.201709291849
